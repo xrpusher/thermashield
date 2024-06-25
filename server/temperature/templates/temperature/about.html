@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #2980b9 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #main {
+            padding: 20px;
+            margin-top: 20px;
+            background: #fff;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Server Cooling Solutions</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="{% url 'index' %}">Home</a></li>
+                    <li><a href="{% url 'about' %}">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="main" class="container">
+        <h1>About Our Project</h1>
+        <p>Welcome to Server Cooling Solutions. We provide advanced cooling solutions for server rooms using ESP32-based temperature sensors and VR technology. Our product helps to optimize the cooling efficiency of your server rooms, ensuring your hardware runs smoothly and reliably.</p>
+        <h2>Current Status</h2>
+        <p>Our project is currently in alpha testing. We are working hard to improve and refine our solutions. We appreciate your interest and support during this phase.</p>
+        <h2>How to Purchase</h2>
+        <p>To purchase our products, please contact our sales team at <a href="mailto:asyuldashov.dev@gmail.com">asyuldashov.dev@gmail.com</a>. We offer customized solutions tailored to your needs.</p>
+        <h2>Contact Us</h2>
+        <p>For more information, please email us at <a href="mailto:asyuldashov.dev@gmail.com">asyuldashov.dev@gmail.com</a>.</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Server Cooling Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>

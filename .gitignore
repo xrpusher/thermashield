@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+*.pot
+*.pyc
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.sqlite3
+
+# Virtual Environment
+venv/
+env/
+myenv/
+.env
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
