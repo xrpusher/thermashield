@@ -105,86 +105,101 @@ Click on the "+" sign in the margin to see the detail behind the calculations
 | Gross Margin, One-time, less retention     | $40          | Same as gross margin above    |
 | Gross Margin, Transaction, less retention  | $(120)       | Includes costs of retention, expansion, and repeat in the gross margin calculation, reflecting CORE expenses as per https://www.forentrepreneurs.com/ltv/ |
 
+## Per Month Cash Flows (continued)
 
+| Description                              | Month from acquisition                        |
+|------------------------------------------|----------------------------------------------|
+|                                          | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
+| Recurring (Timing of Renewal / Churn) #  | - | - | - | - | - | - | - | - | - | - | - | 1 | 1  |
+| Repeat (Timing of Repeat / Churn) #      | - | - | - | - | - | - | - | - | - | - | - | 1 | 1  |
+| Transactions (New and Repeat) #          | 1 | - | - | - | - | - | - | - | - | - | - | 1 | -  |
+| Retention, Recurring %                   | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 95% | 95% |
+| Retention, One-time %                    | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% |
+| Retention, Transaction %                 | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 95% | 95% |
 
+## Unit Economics, net of churn, per period
 
-Per month cash flows (continued)
-Description	Month from acquisition	1	2	3	4	5	6	7	8	9	10	11	12	13
-Recurring (Timing of Renewal / Churn)	#	-	-	-	-	-	-	-	-	-	-	-	1	1
-Repeat (Timing of Repeat / Churn)	#	-	-	-	-	-	-	-	-	-	-	-	1	1
-Transactions (New and Repeat)	#	1	-	-	-	-	-	-	-	-	-	-	1	-
-Retention, Recurring	%	100%	100%	100%	100%	100%	100%	100%	100%	100%	100%	100%	95%	95%
-Retention, One-time	%	100%	100%	100%	100%	100%	100%	100%	100%	100%	100%	100%	100%	100%
-Retention, Transaction	%	100%	100%	100%	100%	100%	100%	100%	100%	100%	100%	100%	95%	95%
-Unit Economics, net of churn, per period
-Description	Amount per period	Notes
-Revenues, Recurring	$100.0	
-Revenues, One-time	$400.0	
-Revenues, Transaction	$0.0	
-Cost of Sales, Recurring	$90.0	
-Cost of Sales, One-time	$360.0	
-Cost of Sales, Transaction	$0.0	
-Billings, net discounts, Recurring	$1200.0	
-Billings, net discounts, One-time	$400.0	
-Billings, net discounts, Transaction	$0.0	
-Acquisition Costs	$120.0	
-Retention Costs	$10.0	
-Repeat Acquisition Costs	$120.0	
-Billings, net of churn	$1542.0	
-Net Revenues, net of churn	$495.0	
-Cost of Sales, net of churn	$446.0	
-Gross Margin, net of churn, per period	$49.0	
-Cumulative Gross Margin, net of churn	$169.0	
-Net Gross Margin, net of churn, per period, discounted	$47.0	
-Cumulative Gross Margin, net of churn, discounted	$164.0	
-LTV Analysis
-Description	Amount	Notes
-LTV, Recurring	$38	Formula from https://www.forentrepreneurs.com/ltv/
-LTV, One-time	$40	
-LTV, Transaction	$(120)	
-LTV	$(122)	Sum of all LTVs
-LTV / CAC	$(9)	To help measure profitability performance
-CAC Payback	$(1.50)	Number of months to pay back the customer acquisition costs, based on gross margin
-Revenues, Cost of Sales, Gross Margin for LTV calculations
-Description	Amount	Type
-Total Revenues, Recurring	$100	Recurring
-Total Revenues, One-time	$400	One time
-Total Revenues, Transaction	$0	Transaction
-Total Cost of Sales, Recurring	90%	Recurring
-Total Cost of Sales, One-time	90%	One time
-Total Cost of Sales, Transaction	0%	Transaction
-Gross Margin, Recurring	$10	
-Gross Margin, One-time	$40	
-Gross Margin, Transaction	$0	
-Gross Margin, Recurring, less cost of retention and expansion, recurring	$10	
-Gross Margin, One-time, less retention	$40	Same as gross margin above
-Gross Margin, Transaction, less retention	$(120)	Includes costs of retention, expansion, and repeat in the gross margin calculation, reflecting CORE expenses as per https://www.forentrepreneurs.com/ltv/
-Cash Flow, per period and cumulative
-Description	Amount per period	Cumulative Amount	Notes
-Net Cash Flow, per period	$990		
-Cumulative Net Cash Flow	$990		
-Net Cash Flow, per period, discounted	$990		
-Cumulative Net Cash Flow, discounted	$990		
-Timescale
-Description	Month from acquisition	1	2	3	4	5	6	7	8	9	10	11	12	13
-Recurring (Timing of Billing Cycle)	#	-	-	-	-	-	-	-	-	-	-	-	1	1
-Recurring (Timing of Renewal / Churn)	#	-	-	-	-	-	-	-	-	-	-	-	1	1
-Repeat (Timing of Repeat / Churn)	#	-	-	-	-	-	-	-	-	-	-	-	1	1
-Transactions (New and Repeat)	#	1	-	-	-	-	-	-	-	-	-	-	1	-
-Retention, Recurring	%	100%	100%	100%	100%	100%	100%	100%	100%	100%	100%	100%	95%	95%
-Retention, One-time	%	100%	100%	100%	100%	100%	100%	100%	100%	100%	100%	100%	100%	100%
-Retention, Transaction	%	100%	100%	100%	100%	100%	100%	100%	100%	100%	100%	100%	95%	95%
-Unit Economics, net of churn, per period
-Description	Amount	Notes
-Revenues, net of churn, Recurring	$100.0	
-Revenues, net of churn, One-time	$400.0	
-Revenues, net of churn, Transaction	$0.0	
-Cost of Sales, net of churn, Recurring	$90.0	
-Cost of Sales, net of churn, One-time	$360.0	
-Cost of Sales, net of churn, Transaction	$0.0	
-Billings, net discounts, Recurring	$1200.0	
-Billings, net discounts, One-time	$400.0	
-Billings, net discounts, Transaction	$0.0	
-Acquisition Costs, net of churn	$120.0	
-Retention Costs, net of churn	$10	
+| Description                             | Amount per period | Notes                                                          |
+|-----------------------------------------|-------------------|---------------------------------------------------------------|
+| Revenues, Recurring                     | $100.0            |                                                               |
+| Revenues, One-time                      | $400.0            |                                                               |
+| Revenues, Transaction                   | $0.0              |                                                               |
+| Cost of Sales, Recurring                | $90.0             |                                                               |
+| Cost of Sales, One-time                 | $360.0            |                                                               |
+| Cost of Sales, Transaction              | $0.0              |                                                               |
+| Billings, net discounts, Recurring      | $1200.0           |                                                               |
+| Billings, net discounts, One-time       | $400.0            |                                                               |
+| Billings, net discounts, Transaction    | $0.0              |                                                               |
+| Acquisition Costs                       | $120.0            |                                                               |
+| Retention Costs                         | $10.0             |                                                               |
+| Repeat Acquisition Costs                | $120.0            |                                                               |
+| Billings, net of churn                  | $1542.0           |                                                               |
+| Net Revenues, net of churn              | $495.0            |                                                               |
+| Cost of Sales, net of churn             | $446.0            |                                                               |
+| Gross Margin, net of churn, per period  | $49.0             |                                                               |
+| Cumulative Gross Margin, net of churn   | $169.0            |                                                               |
+| Net Gross Margin, net of churn, discounted | $47.0          |                                                               |
+| Cumulative Gross Margin, net of churn, discounted | $164.0  |                                                               |
 
+## LTV Analysis
+
+| Description         | Amount  | Notes                                                                  |
+|---------------------|---------|------------------------------------------------------------------------|
+| LTV, Recurring      | $38     | Formula from [For Entrepreneurs](https://www.forentrepreneurs.com/ltv/) |
+| LTV, One-time       | $(120)  |                                                                        |
+| LTV                 | $(9)    | To help measure profitability performance                              |
+| CAC Payback         | $(1.50) | Number of months to pay back the customer acquisition costs, based on gross margin |
+
+## Revenues, Cost of Sales, Gross Margin for LTV calculations
+
+| Description                                 | Amount        | Type       |
+|---------------------------------------------|---------------|------------|
+| Total Revenues, Recurring                   | $100          | Recurring  |
+| Total Revenues, One-time                    | $400          | One time   |
+| Total Revenues, Transaction                 | $0            | Transaction|
+| Total Cost of Sales, Recurring              | 90%           | Recurring  |
+| Total Cost of Sales, One-time               | 90%           | One time   |
+| Total Cost of Sales, Transaction            | 0%            | Transaction|
+| Gross Margin, Recurring                     | $10           |            |
+| Gross Margin, One-time                      | $40           |            |
+| Gross Margin, Transaction                   | $0            |            |
+| Gross Margin, Recurring, less cost of retention and expansion, recurring | $10 | |
+| Gross Margin, One-time, less retention      | $(120)        | Includes costs of retention, expansion, and repeat in the gross margin calculation, reflecting CORE expenses as per [For Entrepreneurs](https://www.forentrepreneurs.com/ltv/) |
+
+## Cash Flow, per period and cumulative
+
+| Description                       | Amount per period | Cumulative Amount | Notes          |
+|-----------------------------------|-------------------|-------------------|----------------|
+| Net Cash Flow, per period         | $990              |                   |                |
+| Cumulative Net Cash Flow          |                   | $990              |                |
+| Net Cash Flow, per period, discounted | $990          |                   |                |
+| Cumulative Net Cash Flow, discounted |                | $990              |                |
+
+## Timescale
+
+| Description                              | Month from acquisition                        |
+|------------------------------------------|----------------------------------------------|
+|                                          | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
+| Recurring (Timing of Billing Cycle) #    | - | - | - | - | - | - | - | - | - | - | - | 1 | 1  |
+| Recurring (Timing of Renewal / Churn) #  | - | - | - | - | - | - | - | - | - | - | - | 1 | 1  |
+| Repeat (Timing of Repeat / Churn) #      | - | - | - | - | - | - | - | - | - | - | - | 1 | 1  |
+| Transactions (New and Repeat) #          | 1 | - | - | - | - | - | - | - | - | - | - | 1 | -  |
+| Retention, Recurring %                   | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 95% | 95% |
+| Retention, One-time %                    | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% |
+| Retention, Transaction %                 | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 95% | 95% |
+
+## Unit Economics, net of churn, per period
+
+| Description                             | Amount per period | Notes                                                          |
+|-----------------------------------------|-------------------|---------------------------------------------------------------|
+| Revenues, net of churn, Recurring       | $100.0            |                                                               |
+| Revenues, net of churn, One-time        | $400.0            |                                                               |
+| Revenues, net of churn, Transaction     | $0.0              |                                                               |
+| Cost of Sales, net of churn, Recurring  | $90.0             |                                                               |
+| Cost of Sales, net of churn, One-time   | $360.0            |                                                               |
+| Cost of Sales, net of churn, Transaction| $0.0              |                                                               |
+| Billings, net discounts, Recurring      | $1200.0           |                                                               |
+| Billings, net discounts, One-time       | $400.0            |                                                               |
+| Billings, net discounts, Transaction    | $0.0              |                                                               |
+| Acquisition Costs, net of churn         | $120.0            |                                                               |
+| Retention Costs, net of churn           | $10.0             |                                                               |
