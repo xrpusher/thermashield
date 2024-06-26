@@ -1,12 +1,3 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [ThermaShield_V0.9.PcbDoc]
-   Generated File[ThermaShield_V0.9.TXT]
-   Generated File[ThermaShield_V0.9.LDP]
-   Generated File[ThermaShield_V0.9.DRR]
-
-
-Files Generated   : 3
-Documents Printed : 0
-
-Finished Output Generation At 17:39:22 On 24.06.2024
+version https://git-lfs.github.com/spec/v1
+oid sha256:977c8f6dd2d65586820692250fa3dadba82cdcfd3dee729790b2ca099f20738e
+size 323

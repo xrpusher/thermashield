@@ -1,20 +1,3 @@
-------------------------------------------------------------------------------------------
-Gerber File Extension Report For: ThermaShield_V0.9.GBR   24.06.2024  19:56:57
-------------------------------------------------------------------------------------------
-
-
-------------------------------------------------------------------------------------------
-Layer Extension     Layer Description                      
-------------------------------------------------------------------------------------------
-.gbr                Top Overlay                             
-.gbr                Top Paste                               
-.gbr                Top Solder                              
-.gbr                Top Layer                               
-.gbr                Bottom Layer                            
-.gbr                Bottom Solder                           
-.gbr                Bottom Paste                            
-.gbr                Bottom Overlay                          
-.gbr                Drill Drawing                           
-.gbr                Drill Guide                             
-.gbr                Profile                                 
-------------------------------------------------------------------------------------------
+version https://git-lfs.github.com/spec/v1
+oid sha256:43dcd2f6348ce75f3a80945db767708be2e9d6cb68ff239da94c6839c3533f2c
+size 1287

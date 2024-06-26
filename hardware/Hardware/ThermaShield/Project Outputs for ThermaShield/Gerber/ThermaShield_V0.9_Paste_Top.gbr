@@ -1,26 +1,3 @@
-G04*
-G04 #@! TF.GenerationSoftware,Altium Limited,Altium Designer,22.4.2 (48)*
-G04*
-G04 Layer_Color=8421504*
-%FSLAX44Y44*%
-%MOMM*%
-G71*
-G04*
-G04 #@! TF.SameCoordinates,401EAB3C-69B4-4000-897E-A26D65C5C49B*
-G04*
-G04*
-G04 #@! TF.FilePolarity,Positive*
-G04*
-G01*
-G75*
-%ADD15R,1.3000X0.7000*%
-D15*
-X480000Y289400D02*
-D03*
-Y269400D02*
-D03*
-Y179230D02*
-D03*
-Y199230D02*
-D03*
-M02*
+version https://git-lfs.github.com/spec/v1
+oid sha256:bebfbcbaffb8505d1c1f3941890f04af8eaad328823091102f9ce6781b94e5b8
+size 400

@@ -1,9 +1,3 @@
-from django.contrib import admin
-from django.urls import path, include
-from django.views.generic import RedirectView
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/', include('temperature.urls')),
-    path('', RedirectView.as_view(url='/api/about/', permanent=True)),
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:b10832696a248e577e97174d394d3b468bbec81d9adbfd7cc117276860e0ac82
+size 300

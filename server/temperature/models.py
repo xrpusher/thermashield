@@ -1,9 +1,3 @@
-from django.db import models
-
-class TemperatureReading(models.Model):
-    sensor_id = models.CharField(max_length=50)
-    temperature = models.FloatField()
-    timestamp = models.DateTimeField(auto_now_add=True)
-
-    def __str__(self):
-        return f"Sensor {self.sensor_id}: {self.temperature}°C at {self.timestamp}"
+version https://git-lfs.github.com/spec/v1
+oid sha256:205a2c52fda8a55d5a87eb120e8dda7d9b80f159b14f31d5be6ab55c89203810
+size 330

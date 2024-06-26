@@ -1,16 +1,3 @@
-"""
-WSGI config for server_cooling project.
-
-It exposes the WSGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/4.2/howto/deployment/wsgi/
-"""
-
-import os
-
-from django.core.wsgi import get_wsgi_application
-
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "server_cooling.settings")
-
-application = get_wsgi_application()
+version https://git-lfs.github.com/spec/v1
+oid sha256:73817994e8709cef61d893728fd1036939f53d5e8d652c8e505b9a969ae67024
+size 421

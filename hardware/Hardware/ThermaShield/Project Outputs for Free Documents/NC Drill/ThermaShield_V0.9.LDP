@@ -1,2 +1,3 @@
-Layer Pairs Export File for PCB: C:\Users\Timur\YandexDisk\Учеба\НИУ ВШЭ\2 модуль\Проектный семинар\Финальный проект\ThermaShield\Hardware\ThermaShield\ThermaShield_V0.9.PcbDoc
-LayersSetName=Top_Bot_Thru_Holes|DrillFile=thermashield_v0.9.txt|DrillLayers=gtl,gbl
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ec26e131688921141f0c2ee2190968f393a4c624a6a7067936c1b6a71051a04
+size 264

@@ -1,10 +1,3 @@
-from django.urls import path
-from .views import RegisterSensorView, UpdateTemperatureView, GetTemperatureView, index, about
-
-urlpatterns = [
-    path('register/', RegisterSensorView.as_view(), name='register_sensor'),
-    path('update/', UpdateTemperatureView.as_view(), name='update_temperature'),
-    path('temperature/<str:sensor_id>/', GetTemperatureView.as_view(), name='get_temperature'),
-    path('index/', index, name='index'),
-    path('about/', about, name='about'),
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9d361fb578272cc41b7db7b43755000035d2bba3f4902c7f5e2fcb84515fbab
+size 489
