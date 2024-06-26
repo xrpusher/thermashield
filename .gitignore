@@ -33,3 +33,6 @@ myenv/
 # VS Code
 .vscode/
 
+# FW
+*.bin
+

@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [ThermaShield_V0.9.PcbDoc]
+   Generated File[ThermaShield_V0.9.TXT]
+   Generated File[ThermaShield_V0.9.LDP]
+   Generated File[ThermaShield_V0.9.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 19:56:58 On 24.06.2024
